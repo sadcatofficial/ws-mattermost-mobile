@@ -37,6 +37,19 @@ allprojects {
             url "$rootDir/../detox/node_modules/detox/Detox-android"
         }
     }
+    
+    configurations.all {
+        resolutionStrategy {
+            eachDependency { DependencyResolveDetails details ->
+                if (details.requested.group == 'com.android.support' && details.requested.name == 'support-annotations') {
+                    details.useTarget group: 'androidx.annotation', name: 'annotation', version: '1.7.1'
+                }
+                if (details.requested.group == 'com.android.support' && details.requested.name == 'customtabs') {
+                    details.useTarget group: 'androidx.browser', name: 'browser', version: '1.7.0'
+                }
+            }
+        }
+    }
 }
 
 apply plugin: "com.facebook.react.rootproject"

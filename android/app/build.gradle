@@ -244,6 +244,12 @@ configurations.all {
             if (details.requested.name == 'okhttp-urlconnection') {
                 details.useTarget group: details.requested.group, name: details.requested.name, version: '4.12.0'
             }
+            if (details.requested.group == 'com.android.support' && details.requested.name == 'support-annotations') {
+                details.useTarget group: 'androidx.annotation', name: 'annotation', version: '1.7.1'
+            }
+            if (details.requested.group == 'com.android.support' && details.requested.name == 'customtabs') {
+                details.useTarget group: 'androidx.browser', name: 'browser', version: '1.7.0'
+            }
         }
     }
 }

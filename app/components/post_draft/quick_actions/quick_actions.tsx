@@ -9,6 +9,7 @@ import FileAction from './file_quick_action';
 import ImageAction from './image_quick_action';
 import InputAction from './input_quick_action';
 import PostPriorityAction from './post_priority_action';
+import VoiceAction from './voice_quick_action';
 
 type Props = {
     testID?: string;
@@ -25,6 +26,10 @@ type Props = {
     postPriority: PostPriority;
     updatePostPriority: (postPriority: PostPriority) => void;
     focus: () => void;
+    
+    // Voice Recording
+    channelId: string;
+    rootId?: string;
 }
 
 const style = StyleSheet.create({
@@ -48,6 +53,8 @@ export default function QuickActions({
     postPriority,
     updatePostPriority,
     focus,
+    channelId,
+    rootId,
 }: Props) {
     const atDisabled = value[value.length - 1] === '@';
     const slashDisabled = value.length > 0;
@@ -58,6 +65,7 @@ export default function QuickActions({
     const imageActionTestID = `${testID}.image_action`;
     const cameraActionTestID = `${testID}.camera_action`;
     const postPriorityActionTestID = `${testID}.post_priority_action`;
+    const voiceActionTestID = `${testID}.voice_action`;
 
     const uploadProps = {
         disabled: !canUploadFiles,
@@ -97,6 +105,15 @@ export default function QuickActions({
             <CameraAction
                 testID={cameraActionTestID}
                 {...uploadProps}
+            />
+            <VoiceAction
+                testID={voiceActionTestID}
+                disabled={!canUploadFiles}
+                channelId={channelId}
+                rootId={rootId}
+                maxFilesReached={fileCount >= maxFileCount}
+                maxFileCount={maxFileCount}
+                onUploadFiles={addFiles}
             />
             {isPostPriorityEnabled && canShowPostPriority && (
                 <PostPriorityAction
