@@ -223,6 +223,8 @@ export default function DraftInput({
                             updatePostPriority={updatePostPriority}
                             canShowPostPriority={canShowPostPriority}
                             focus={focus}
+                            channelId={channelId}
+                            rootId={rootId}
                         />
                         <SendAction
                             testID={sendActionTestID}

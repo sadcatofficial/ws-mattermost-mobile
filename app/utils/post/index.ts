@@ -252,3 +252,7 @@ export async function sendMessageWithAlert({title, channelName, intl, sendMessag
         buttons,
     );
 }
+
+export function isVoiceMessage(post: PostModel | Post): boolean {
+    return Boolean(post.type && post.type === Post.POST_TYPES.CUSTOM_VOICE);
+}
