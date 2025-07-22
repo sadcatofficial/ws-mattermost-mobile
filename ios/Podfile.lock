@@ -7,7 +7,7 @@ PODS:
   - DoubleConversion (1.1.6)
   - EXApplication (6.0.1):
     - ExpoModulesCore
-  - EXConstants (17.0.5):
+  - EXConstants (17.0.8):
     - ExpoModulesCore
   - Expo (52.0.19):
     - ExpoModulesCore
@@ -15,7 +15,7 @@ PODS:
     - ExpoModulesCore
   - ExpoDevice (7.0.1):
     - ExpoModulesCore
-  - ExpoFileSystem (18.0.7):
+  - ExpoFileSystem (18.0.12):
     - ExpoModulesCore
   - ExpoImage (2.0.4):
     - ExpoModulesCore
@@ -1835,6 +1835,8 @@ PODS:
     - React-CoreModules
     - React-RCTImage
     - React-RCTText
+  - RNAudioRecorderPlayer (3.6.14):
+    - React-Core
   - RNCClipboard (1.15.0):
     - React-Core
   - RNDateTimePicker (8.2.0):
@@ -2200,6 +2202,7 @@ DEPENDENCIES:
   - ReactNativeExceptionHandler (from `../node_modules/react-native-exception-handler`)
   - ReactNativeIncallManager (from `../node_modules/react-native-incall-manager`)
   - ReactNativeNavigation (from `../node_modules/react-native-navigation`)
+  - RNAudioRecorderPlayer (from `../node_modules/react-native-audio-recorder-player`)
   - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - RNFileViewer (from `../node_modules/react-native-file-viewer`)
@@ -2424,6 +2427,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-incall-manager"
   ReactNativeNavigation:
     :path: "../node_modules/react-native-navigation"
+  RNAudioRecorderPlayer:
+    :path: "../node_modules/react-native-audio-recorder-player"
   RNCClipboard:
     :path: "../node_modules/@react-native-clipboard/clipboard"
   RNDateTimePicker:
@@ -2472,11 +2477,11 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
   EXApplication: 88ebf1a95f85faa5d2df160016d61f2d060e9438
-  EXConstants: e25c3f3ef5d1cf7a6ef911ebf7a3ab94d8d06d82
+  EXConstants: fcfc75800824ac2d5c592b5bc74130bad17b146b
   Expo: 848501c300b37b3fa7330c58a5353e07e03d5c3d
   ExpoCrypto: 483fc758365923f89ddaab4327c21cae9534841d
   ExpoDevice: 449822f2c45660c1ce83283dd51c67fe5404996c
-  ExpoFileSystem: 818e82dbb71175414d1ca310e926c48ff0d07348
+  ExpoFileSystem: 42d363d3b96f9afab980dcef60d5657a4443c655
   ExpoImage: 18ec1a3e5cd96ee6162d988be3085e18113e143f
   ExpoLinearGradient: 18148bd38f98fa0229c1f9df23393b32ab6d2d32
   ExpoModulesCore: c9cb309323aee3c048099bb40ad0226e3fcf0c56
@@ -2492,7 +2497,7 @@ SPEC CHECKSUMS:
   mattermost-hardware-keyboard: 510850877516c61f71f06c95377b96263af1b80d
   mattermost-react-native-turbo-log: 9e2c4f2e2b278a1541e5c2eb99ed9cd2af601fe2
   mattermost-rnutils: 88291c01fc351a93c553b6a3bce44b17f8d38233
-  RCT-Folly: 84578c8756030547307e4572ab1947de1685c599
+  RCT-Folly: bf5c0376ffe4dd2cf438dcf86db385df9fdce648
   RCTDeprecation: fb7d408617e25d7f537940000d766d60149c5fea
   RCTRequired: 9aaf0ffcc1f41f0c671af863970ef25c422a9920
   RCTTypeSafety: e9a6e7d48184646eb0610295b74c0dd02768cbb2
@@ -2566,6 +2571,7 @@ SPEC CHECKSUMS:
   ReactNativeExceptionHandler: a23922ca00122b050ae9412f960061791c232c47
   ReactNativeIncallManager: ef7b845e166f04cf8ddf433d8a23227b01cef87a
   ReactNativeNavigation: 7579af7ae4f79c58691c19a06630bd50172c8817
+  RNAudioRecorderPlayer: b5ed41ccfe72a211a870bfe09ab36c046eb27d2a
   RNCClipboard: dbcf25b8f666b4685c02eeb65be981d30198e505
   RNDateTimePicker: 818460dc31b0dc5ec58289003e27dd8d022fb79c
   RNFileViewer: 4b5d83358214347e4ab2d4ca8d5c1c90d869e251
