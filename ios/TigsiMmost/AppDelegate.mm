@@ -9,7 +9,7 @@
 #import <UserNotifications/UserNotifications.h>
 #import <TurboLogIOSNative/TurboLog.h>
 
-#import "Mattermost-Swift.h"
+#import "TigsiMmost-Swift.h"
 #import <os/log.h>
 
 @implementation AppDelegate
@@ -39,7 +39,7 @@ NSString* const NOTIFICATION_TEST_ACTION = @"test";
     }
   [TurboLog writeWithLogLevel:TurboLogLevelInfo message:@[@"Configured turbolog"]];
   OrientationManager.shared.delegate = self;
-  
+
   // Clear keychain on first run in case of reinstallation
   if (![[NSUserDefaults standardUserDefaults] objectForKey:@"FirstRun"]) {
 
@@ -84,7 +84,7 @@ NSString* const NOTIFICATION_TEST_ACTION = @"test";
   NSString* action = [userInfo objectForKey:@"type"];
   BOOL isClearAction = (action && [action isEqualToString: NOTIFICATION_CLEAR_ACTION]);
   BOOL isTestAction = (action && [action isEqualToString: NOTIFICATION_TEST_ACTION]);
-  
+
   if (isTestAction) {
     completionHandler(UIBackgroundFetchResultNoData);
     return;
@@ -107,7 +107,7 @@ NSString* const NOTIFICATION_TEST_ACTION = @"test";
     [RNNotifications didReceiveBackgroundNotification:userInfo withCompletionHandler:completionHandler];
     return;
   }
-  
+
   if (state != UIApplicationStateActive) {
     [[GekidouWrapper default] fetchDataForPushNotification:userInfo withContentHandler:^(NSData * _Nullable data) {
       NSMutableDictionary *notification = [userInfo mutableCopy];
@@ -166,7 +166,7 @@ NSString* const NOTIFICATION_TEST_ACTION = @"test";
 {
   NSMutableArray<id<RCTBridgeModule>> *extraModules = [NSMutableArray new];
   [extraModules addObjectsFromArray:[ReactNativeNavigation extraModulesForBridge:bridge]];
-  
+
   // You can inject any extra modules that you would like here, more information at:
   // https://facebook.github.io/react-native/docs/native-modules-ios.html#dependency-injection
   return extraModules;

@@ -16,11 +16,10 @@
 		27C667A529523F0A00E590D5 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 27C667A429523F0A00E590D5 /* Sentry */; };
 		27C667A9295241B600E590D5 /* Sentry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C667A8295241B600E590D5 /* Sentry.swift */; };
 		27C667AA295241B600E590D5 /* Sentry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C667A8295241B600E590D5 /* Sentry.swift */; };
-		413A0FD06EA0DB2B3F30403F /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDDC97F55A1F6C056C6B1BC /* libPods-NotificationService.a */; };
 		49AE370126D4455D00EF4E52 /* Gekidou in Frameworks */ = {isa = PBXBuildFile; productRef = 49AE370026D4455D00EF4E52 /* Gekidou */; };
 		536CC6C323E79287002C478C /* RNNotificationEventHandler+HandleReplyAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 536CC6C123E79287002C478C /* RNNotificationEventHandler+HandleReplyAction.m */; };
+		55CB42C54F41B8B1E11F91ED /* libPods-TigsiMmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E12B3EF54800B19D0E3A2C /* libPods-TigsiMmost.a */; };
 		58495E36BF1A4EAB93609E57 /* Metropolis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54956DEFEBB74EF78C3A6AE5 /* Metropolis-SemiBold.ttf */; };
-		5E1E66232E313C7E00858CD5 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 5E1E66222E313C7E00858CD5 /* Sentry */; };
 		672D988829F1927F004228D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672D984629F1927E004228D6 /* InfoPlist.strings */; };
 		672D988A29F1927F004228D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672D984929F1927E004228D6 /* InfoPlist.strings */; };
 		672D988C29F1927F004228D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672D984C29F1927E004228D6 /* InfoPlist.strings */; };
@@ -177,10 +176,10 @@
 		83ABFD142C1C90D90029685B /* calls_calm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83ABFD102C1C90D90029685B /* calls_calm.mp3 */; };
 		83ABFD152C1C90D90029685B /* calls_urgent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83ABFD112C1C90D90029685B /* calls_urgent.mp3 */; };
 		A94508A396424B2DB778AFE9 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C16B14E1CE4868886A1A00 /* OpenSans-SemiBold.ttf */; };
-		C84AE74C57DDE97D6C3D6924 /* libPods-Mattermost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A83BBA09DE89A630126EA06 /* libPods-Mattermost.a */; };
 		C9A107102BBD7C8700753CDC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C9A1070F2BBD7C8700753CDC /* PrivacyInfo.xcprivacy */; };
 		C9A107122BBDA00200753CDC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C9A107112BBDA00200753CDC /* PrivacyInfo.xcprivacy */; };
 		C9A107142BBDBC8F00753CDC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C9A107132BBDBC8F00753CDC /* PrivacyInfo.xcprivacy */; };
+		D2F4BB75826A835652B6C797 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5817ACBB25DEAFB5AF9FBF /* libPods-NotificationService.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,17 +226,17 @@
 
 /* Begin PBXFileReference section */
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MattermostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MattermostTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TigsiMmostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigsiMmostTests.m; sourceTree = "<group>"; };
 		0DB14DFDF6E04FA69FE769DC /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Mattermost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mattermost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mattermost/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Mattermost/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mattermost/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mattermost/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mattermost/main.m; sourceTree = "<group>"; };
-		24C9C33C1C823BB8E1B3E161 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Mattermost/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TigsiMmost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigsiMmost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TigsiMmost/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TigsiMmost/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TigsiMmost/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TigsiMmost/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TigsiMmost/main.m; sourceTree = "<group>"; };
+		1E502A338BF9C58173B716E3 /* Pods-TigsiMmost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigsiMmost.release.xcconfig"; path = "Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost.release.xcconfig"; sourceTree = "<group>"; };
+		24C9C33C1C823BB8E1B3E161 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-TigsiMmost/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		27C667A8295241B600E590D5 /* Sentry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentry.swift; sourceTree = "<group>"; };
-		2E17B88EAD6181B9E9A24084 /* Pods-Mattermost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mattermost.debug.xcconfig"; path = "Target Support Files/Pods-Mattermost/Pods-Mattermost.debug.xcconfig"; sourceTree = "<group>"; };
 		32AC3D4EA79E44738A6E9766 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		3647DF63D6764CF093375861 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		41F3AFE83AAF4B74878AB78A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -251,6 +250,7 @@
 		536CC6C123E79287002C478C /* RNNotificationEventHandler+HandleReplyAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNNotificationEventHandler+HandleReplyAction.m"; sourceTree = "<group>"; };
 		536CC6C223E79287002C478C /* RNNotificationEventHandler+HandleReplyAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNNotificationEventHandler+HandleReplyAction.h"; sourceTree = "<group>"; };
 		54956DEFEBB74EF78C3A6AE5 /* Metropolis-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Metropolis-SemiBold.ttf"; path = "../assets/fonts/Metropolis-SemiBold.ttf"; sourceTree = "<group>"; };
+		5B4B2ADA7BD3F714AA5B7551 /* Pods-TigsiMmost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigsiMmost.debug.xcconfig"; path = "Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost.debug.xcconfig"; sourceTree = "<group>"; };
 		6561AEAC21CC40B8A72ABB93 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		672D984729F1927E004228D6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = InfoPlist.strings; sourceTree = "<group>"; };
 		672D984A29F1927E004228D6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -298,10 +298,11 @@
 		67FEAE272A1261A000DDF4AE /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = Localizable.strings; sourceTree = "<group>"; };
 		67FEAE2B2A127C3600DDF4AE /* NumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
 		6BAF8296411D4657B5A0E8F8 /* libRNReactNativeDocViewer.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReactNativeDocViewer.a; sourceTree = "<group>"; };
-		7A83BBA09DE89A630126EA06 /* libPods-Mattermost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mattermost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5B4E35A20231E9B8F705B9 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		7C5817ACBB25DEAFB5AF9FBF /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0F4B0924BA173900E14C60 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SplashScreenResource/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F151D3D221B062700FAD8F3 /* RuntimeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeUtils.swift; sourceTree = "<group>"; };
-		7F151D43221B082A00FAD8F3 /* Mattermost-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Mattermost-Bridging-Header.h"; path = "Mattermost/Mattermost-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F151D43221B082A00FAD8F3 /* TigsiMmost-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TigsiMmost-Bridging-Header.h"; path = "TigsiMmost/TigsiMmost-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F1EB88427FDE361002E7EEC /* GekidouWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GekidouWrapper.swift; sourceTree = "<group>"; };
 		7F1EBFCD286F2AE200824AF1 /* MultipleAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAttachmentView.swift; sourceTree = "<group>"; };
 		7F1EBFCF286F2B2C00824AF1 /* RemoveAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAttachmentView.swift; sourceTree = "<group>"; };
@@ -310,13 +311,13 @@
 		7F292A701E8AB73400A450A3 /* SplashScreenResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SplashScreenResource; sourceTree = "<group>"; };
 		7F428809286672F6006B48E1 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
 		7F42880B2866A9C0006B48E1 /* ChannelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelService.swift; sourceTree = "<group>"; };
-		7F43D6051F6BF9EB001FC614 /* libPods-Mattermost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Mattermost.a"; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Mattermost-czlinsdviifujheezzjvmisotjrm/Build/Products/Debug-iphonesimulator/libPods-Mattermost.a"; sourceTree = "<group>"; };
+		7F43D6051F6BF9EB001FC614 /* libPods-TigsiMmost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TigsiMmost.a"; path = "../../../../../../../Library/Developer/Xcode/DerivedData/TigsiMmost-czlinsdviifujheezzjvmisotjrm/Build/Products/Debug-iphonesimulator/libPods-TigsiMmost.a"; sourceTree = "<group>"; };
 		7F537B2828A517580086D6B3 /* NotificationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
 		7F581D32221ED5C60099E66B /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F581D34221ED5C60099E66B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		7F581D36221ED5C60099E66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F581F77221EEA5A0099E66B /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
-		7F63D2C21E6DD98A001FAE12 /* Mattermost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Mattermost.entitlements; path = Mattermost/Mattermost.entitlements; sourceTree = "<group>"; };
+		7F63D2C21E6DD98A001FAE12 /* TigsiMmost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TigsiMmost.entitlements; path = TigsiMmost/TigsiMmost.entitlements; sourceTree = "<group>"; };
 		7F7E9F442864E6C60064BFAF /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		7F7E9F452864E6C60064BFAF /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		7F7E9F492864E6EB0064BFAF /* AttachmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentModel.swift; sourceTree = "<group>"; };
@@ -381,8 +382,8 @@
 		83ABFD0F2C1C90D90029685B /* calls_cheerful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = calls_cheerful.mp3; path = ../assets/sounds/calls_cheerful.mp3; sourceTree = "<group>"; };
 		83ABFD102C1C90D90029685B /* calls_calm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = calls_calm.mp3; path = ../assets/sounds/calls_calm.mp3; sourceTree = "<group>"; };
 		83ABFD112C1C90D90029685B /* calls_urgent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = calls_urgent.mp3; path = ../assets/sounds/calls_urgent.mp3; sourceTree = "<group>"; };
-		A10297DBBE728B2BF1BC045E /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
-		AEDDC97F55A1F6C056C6B1BC /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A003C1F01D8D5941E1D4F8C /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E12B3EF54800B19D0E3A2C /* libPods-TigsiMmost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TigsiMmost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC977883E2624E05975CA65B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		BE17F630DB5D41FD93F32D22 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		C9A1070F2BBD7C8700753CDC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
@@ -390,9 +391,7 @@
 		C9A107132BBDBC8F00753CDC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		D4B1B363C2414DA19C1AC521 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		E5C16B14E1CE4868886A1A00 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		E7BEDFCF1660521CCB3EADEF /* Pods-Mattermost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mattermost.release.xcconfig"; path = "Target Support Files/Pods-Mattermost/Pods-Mattermost.release.xcconfig"; sourceTree = "<group>"; };
 		FBBEC29EE2D3418D9AC33BD5 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		FF7D3AE3E5E892576497A111 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,8 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F98836227FD46A9001C9BFC /* Gekidou in Frameworks */,
-				C84AE74C57DDE97D6C3D6924 /* libPods-Mattermost.a in Frameworks */,
-				5E1E66232E313C7E00858CD5 /* Sentry in Frameworks */,
+				55CB42C54F41B8B1E11F91ED /* libPods-TigsiMmost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +410,7 @@
 			files = (
 				49AE370126D4455D00EF4E52 /* Gekidou in Frameworks */,
 				27C667A329523ECA00E590D5 /* Sentry in Frameworks */,
-				413A0FD06EA0DB2B3F30403F /* libPods-NotificationService.a in Frameworks */,
+				D2F4BB75826A835652B6C797 /* libPods-NotificationService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,13 +427,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MattermostTests */ = {
+		00E356EF1AD99517003FC87E /* TigsiMmostTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MattermostTests.m */,
+				00E356F21AD99517003FC87E /* TigsiMmostTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MattermostTests;
+			path = TigsiMmostTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -496,12 +494,12 @@
 		0D52827284B080D9214D1C50 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				C762A55DC3202B2296E0F5E2 /* Mattermost */,
+				C762A55DC3202B2296E0F5E2 /* TigsiMmost */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Mattermost */ = {
+		13B07FAE1A68108700A75B9A /* TigsiMmost */ = {
 			isa = PBXGroup;
 			children = (
 				7FFD23BF2BFE008600FB34FA /* Extensions */,
@@ -513,12 +511,12 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				7F63D2C21E6DD98A001FAE12 /* Mattermost.entitlements */,
-				7F151D43221B082A00FAD8F3 /* Mattermost-Bridging-Header.h */,
+				7F63D2C21E6DD98A001FAE12 /* TigsiMmost.entitlements */,
+				7F151D43221B082A00FAD8F3 /* TigsiMmost-Bridging-Header.h */,
 				7F0F4B0924BA173900E14C60 /* LaunchScreen.storyboard */,
 				C9A1070F2BBD7C8700753CDC /* PrivacyInfo.xcprivacy */,
 			);
-			name = Mattermost;
+			name = TigsiMmost;
 			sourceTree = "<group>";
 		};
 		27C667AB2952425700E590D5 /* ErrorReporting */ = {
@@ -532,10 +530,10 @@
 		33E107B4DC21A5C48B09F800 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E17B88EAD6181B9E9A24084 /* Pods-Mattermost.debug.xcconfig */,
-				E7BEDFCF1660521CCB3EADEF /* Pods-Mattermost.release.xcconfig */,
-				A10297DBBE728B2BF1BC045E /* Pods-NotificationService.debug.xcconfig */,
-				FF7D3AE3E5E892576497A111 /* Pods-NotificationService.release.xcconfig */,
+				9A003C1F01D8D5941E1D4F8C /* Pods-NotificationService.debug.xcconfig */,
+				6E5B4E35A20231E9B8F705B9 /* Pods-NotificationService.release.xcconfig */,
+				5B4B2ADA7BD3F714AA5B7551 /* Pods-TigsiMmost.debug.xcconfig */,
+				1E502A338BF9C58173B716E3 /* Pods-TigsiMmost.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -567,10 +565,10 @@
 				7FFE32BD1FD9CCAA0038C7A0 /* QuartzBookPack.framework */,
 				7FFE32BE1FD9CCAA0038C7A0 /* SDWebImage.framework */,
 				7FFE32BF1FD9CCAA0038C7A0 /* Sentry.framework */,
-				7F43D6051F6BF9EB001FC614 /* libPods-Mattermost.a */,
+				7F43D6051F6BF9EB001FC614 /* libPods-TigsiMmost.a */,
 				81061F4CBB31484A94D5A8EE /* libz.tbd */,
-				7A83BBA09DE89A630126EA06 /* libPods-Mattermost.a */,
-				AEDDC97F55A1F6C056C6B1BC /* libPods-NotificationService.a */,
+				7C5817ACBB25DEAFB5AF9FBF /* libPods-NotificationService.a */,
+				B6E12B3EF54800B19D0E3A2C /* libPods-TigsiMmost.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -582,7 +580,7 @@
 				672D984629F1927E004228D6 /* InfoPlist.strings */,
 			);
 			name = de.lproj;
-			path = Mattermost/i18n/de.lproj;
+			path = TigsiMmost/i18n/de.lproj;
 			sourceTree = "<group>";
 		};
 		672D984829F1927E004228D6 /* ja.lproj */ = {
@@ -592,7 +590,7 @@
 				672D984929F1927E004228D6 /* InfoPlist.strings */,
 			);
 			name = ja.lproj;
-			path = Mattermost/i18n/ja.lproj;
+			path = TigsiMmost/i18n/ja.lproj;
 			sourceTree = "<group>";
 		};
 		672D984B29F1927E004228D6 /* fa.lproj */ = {
@@ -602,7 +600,7 @@
 				672D984C29F1927E004228D6 /* InfoPlist.strings */,
 			);
 			name = fa.lproj;
-			path = Mattermost/i18n/fa.lproj;
+			path = TigsiMmost/i18n/fa.lproj;
 			sourceTree = "<group>";
 		};
 		672D984E29F1927F004228D6 /* pl.lproj */ = {
@@ -612,7 +610,7 @@
 				672D984F29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = pl.lproj;
-			path = Mattermost/i18n/pl.lproj;
+			path = TigsiMmost/i18n/pl.lproj;
 			sourceTree = "<group>";
 		};
 		672D985129F1927F004228D6 /* ar.lproj */ = {
@@ -622,7 +620,7 @@
 				672D985229F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = ar.lproj;
-			path = Mattermost/i18n/ar.lproj;
+			path = TigsiMmost/i18n/ar.lproj;
 			sourceTree = "<group>";
 		};
 		672D985429F1927F004228D6 /* sv.lproj */ = {
@@ -632,7 +630,7 @@
 				672D985529F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = sv.lproj;
-			path = Mattermost/i18n/sv.lproj;
+			path = TigsiMmost/i18n/sv.lproj;
 			sourceTree = "<group>";
 		};
 		672D985729F1927F004228D6 /* ru.lproj */ = {
@@ -642,7 +640,7 @@
 				672D985829F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = ru.lproj;
-			path = Mattermost/i18n/ru.lproj;
+			path = TigsiMmost/i18n/ru.lproj;
 			sourceTree = "<group>";
 		};
 		672D985A29F1927F004228D6 /* ro.lproj */ = {
@@ -652,7 +650,7 @@
 				672D985B29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = ro.lproj;
-			path = Mattermost/i18n/ro.lproj;
+			path = TigsiMmost/i18n/ro.lproj;
 			sourceTree = "<group>";
 		};
 		672D985D29F1927F004228D6 /* bg.lproj */ = {
@@ -662,7 +660,7 @@
 				672D985E29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = bg.lproj;
-			path = Mattermost/i18n/bg.lproj;
+			path = TigsiMmost/i18n/bg.lproj;
 			sourceTree = "<group>";
 		};
 		672D986029F1927F004228D6 /* tr.lproj */ = {
@@ -672,7 +670,7 @@
 				672D986129F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = tr.lproj;
-			path = Mattermost/i18n/tr.lproj;
+			path = TigsiMmost/i18n/tr.lproj;
 			sourceTree = "<group>";
 		};
 		672D986329F1927F004228D6 /* zh-TW.lproj */ = {
@@ -682,7 +680,7 @@
 				672D986429F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = "zh-TW.lproj";
-			path = "Mattermost/i18n/zh-TW.lproj";
+			path = "TigsiMmost/i18n/zh-TW.lproj";
 			sourceTree = "<group>";
 		};
 		672D986629F1927F004228D6 /* en.lproj */ = {
@@ -692,7 +690,7 @@
 				672D986729F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = en.lproj;
-			path = Mattermost/i18n/en.lproj;
+			path = TigsiMmost/i18n/en.lproj;
 			sourceTree = "<group>";
 		};
 		672D986929F1927F004228D6 /* en_AU.lproj */ = {
@@ -702,7 +700,7 @@
 				672D986A29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = en_AU.lproj;
-			path = Mattermost/i18n/en_AU.lproj;
+			path = TigsiMmost/i18n/en_AU.lproj;
 			sourceTree = "<group>";
 		};
 		672D986C29F1927F004228D6 /* hu.lproj */ = {
@@ -712,7 +710,7 @@
 				672D986D29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = hu.lproj;
-			path = Mattermost/i18n/hu.lproj;
+			path = TigsiMmost/i18n/hu.lproj;
 			sourceTree = "<group>";
 		};
 		672D986F29F1927F004228D6 /* fr.lproj */ = {
@@ -722,7 +720,7 @@
 				672D987029F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = fr.lproj;
-			path = Mattermost/i18n/fr.lproj;
+			path = TigsiMmost/i18n/fr.lproj;
 			sourceTree = "<group>";
 		};
 		672D987229F1927F004228D6 /* ko.lproj */ = {
@@ -732,7 +730,7 @@
 				672D987329F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = ko.lproj;
-			path = Mattermost/i18n/ko.lproj;
+			path = TigsiMmost/i18n/ko.lproj;
 			sourceTree = "<group>";
 		};
 		672D987529F1927F004228D6 /* zh-CN.lproj */ = {
@@ -742,7 +740,7 @@
 				672D987629F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = "zh-CN.lproj";
-			path = "Mattermost/i18n/zh-CN.lproj";
+			path = "TigsiMmost/i18n/zh-CN.lproj";
 			sourceTree = "<group>";
 		};
 		672D987829F1927F004228D6 /* es.lproj */ = {
@@ -752,7 +750,7 @@
 				672D987929F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = es.lproj;
-			path = Mattermost/i18n/es.lproj;
+			path = TigsiMmost/i18n/es.lproj;
 			sourceTree = "<group>";
 		};
 		672D987B29F1927F004228D6 /* it.lproj */ = {
@@ -762,7 +760,7 @@
 				672D987C29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = it.lproj;
-			path = Mattermost/i18n/it.lproj;
+			path = TigsiMmost/i18n/it.lproj;
 			sourceTree = "<group>";
 		};
 		672D987E29F1927F004228D6 /* nl.lproj */ = {
@@ -772,7 +770,7 @@
 				672D987F29F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = nl.lproj;
-			path = Mattermost/i18n/nl.lproj;
+			path = TigsiMmost/i18n/nl.lproj;
 			sourceTree = "<group>";
 		};
 		672D988129F1927F004228D6 /* pt-BR.lproj */ = {
@@ -782,7 +780,7 @@
 				672D988229F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = "pt-BR.lproj";
-			path = "Mattermost/i18n/pt-BR.lproj";
+			path = "TigsiMmost/i18n/pt-BR.lproj";
 			sourceTree = "<group>";
 		};
 		672D988429F1927F004228D6 /* uk.lproj */ = {
@@ -792,7 +790,7 @@
 				672D988529F1927F004228D6 /* InfoPlist.strings */,
 			);
 			name = uk.lproj;
-			path = Mattermost/i18n/uk.lproj;
+			path = TigsiMmost/i18n/uk.lproj;
 			sourceTree = "<group>";
 		};
 		7F42880528664AB2006B48E1 /* Utils */ = {
@@ -981,7 +979,7 @@
 				7F537B2828A517580086D6B3 /* NotificationHelper.swift */,
 			);
 			name = Helpers;
-			path = Mattermost/Helpers;
+			path = TigsiMmost/Helpers;
 			sourceTree = "<group>";
 		};
 		7FFD23BF2BFE008600FB34FA /* Extensions */ = {
@@ -993,7 +991,7 @@
 				7FCEFB9226B7934F006DC1DE /* SDWebImageDownloaderOperation+Swizzle.m */,
 			);
 			name = Extensions;
-			path = Mattermost/Extensions;
+			path = TigsiMmost/Extensions;
 			sourceTree = "<group>";
 		};
 		7FFD23C02BFE011400FB34FA /* Utils */ = {
@@ -1002,7 +1000,7 @@
 				7F151D3D221B062700FAD8F3 /* RuntimeUtils.swift */,
 			);
 			name = Utils;
-			path = Mattermost/Utils;
+			path = TigsiMmost/Utils;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -1018,11 +1016,11 @@
 			children = (
 				7FDEF5352C2D01CC0093AADB /* certs */,
 				27C667AB2952425700E590D5 /* ErrorReporting */,
-				13B07FAE1A68108700A75B9A /* Mattermost */,
+				13B07FAE1A68108700A75B9A /* TigsiMmost */,
 				7F581D33221ED5C60099E66B /* NotificationService */,
 				7F292A701E8AB73400A450A3 /* SplashScreenResource */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MattermostTests */,
+				00E356EF1AD99517003FC87E /* TigsiMmostTests */,
 				7FC5698728563FDB000B0905 /* MattermostShare */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				0156F464626F49C2977D7982 /* Resources */,
@@ -1038,29 +1036,29 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Mattermost.app */,
+				13B07F961A680F5B00A75B9A /* TigsiMmost.app */,
 				7F581D32221ED5C60099E66B /* NotificationService.appex */,
 				7FC5698628563FDB000B0905 /* MattermostShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C762A55DC3202B2296E0F5E2 /* Mattermost */ = {
+		C762A55DC3202B2296E0F5E2 /* TigsiMmost */ = {
 			isa = PBXGroup;
 			children = (
 				24C9C33C1C823BB8E1B3E161 /* ExpoModulesProvider.swift */,
 			);
-			name = Mattermost;
+			name = TigsiMmost;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* Mattermost */ = {
+		13B07F861A680F5B00A75B9A /* TigsiMmost */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mattermost" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TigsiMmost" */;
 			buildPhases = (
-				A5CD042BFDCAC871BAB5A03A /* [CP] Check Pods Manifest.lock */,
+				5F174BFE984761AE5CC5768A /* [CP] Check Pods Manifest.lock */,
 				37BA87DA6600D2B4EF69B92E /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -1069,8 +1067,8 @@
 				37DA4BA41E6F55AD002B058E /* Embed Frameworks */,
 				AE4769B235D14E6C9C64EA78 /* Upload Debug Symbols to Sentry */,
 				7FFE32A91FD9CB650038C7A0 /* Embed App Extensions */,
-				A40F47AC8A062DFCF1B2A23E /* [CP] Embed Pods Frameworks */,
-				60D7AC7FCA7AC276C4308D05 /* [CP] Copy Pods Resources */,
+				2016C3C65F6F416EA2371917 /* [CP] Embed Pods Frameworks */,
+				3D9A2FC9F83200B5841CBE86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1078,24 +1076,24 @@
 				7F581D38221ED5C60099E66B /* PBXTargetDependency */,
 				7FC5698F28563FDB000B0905 /* PBXTargetDependency */,
 			);
-			name = Mattermost;
+			name = TigsiMmost;
 			packageProductDependencies = (
 				7F98836127FD46A9001C9BFC /* Gekidou */,
 				5E1E66222E313C7E00858CD5 /* Sentry */,
 			);
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* Mattermost.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* TigsiMmost.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F581D31221ED5C60099E66B /* NotificationService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F581D82221ED5C60099E66B /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
-				656D4CFDAC0EC1C1E94D9329 /* [CP] Check Pods Manifest.lock */,
+				725F96BF4EBB7ADB7089B78F /* [CP] Check Pods Manifest.lock */,
 				7F581D2E221ED5C60099E66B /* Sources */,
 				7F581D2F221ED5C60099E66B /* Frameworks */,
 				7F581D30221ED5C60099E66B /* Resources */,
-				FABCD84BD2A468FFB374B89C /* [CP] Copy Pods Resources */,
+				DE0AFEE8FA3265BCE23248EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1177,7 +1175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mattermost" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TigsiMmost" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1216,7 +1214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Mattermost */,
+				13B07F861A680F5B00A75B9A /* TigsiMmost */,
 				7F581D31221ED5C60099E66B /* NotificationService */,
 				7FC5698528563FDB000B0905 /* MattermostShare */,
 			);
@@ -1371,6 +1369,26 @@
 			shellPath = /bin/sh;
 			shellScript = "./bundleReactNative.sh\n";
 		};
+		2016C3C65F6F416EA2371917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JitsiWebRTC/WebRTC.framework/WebRTC",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		37BA87DA6600D2B4EF69B92E /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -1388,15 +1406,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Mattermost/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-TigsiMmost/expo-configure-project.sh\"\n";
 		};
-		60D7AC7FCA7AC276C4308D05 /* [CP] Copy Pods Resources */ = {
+		3D9A2FC9F83200B5841CBE86 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mattermost/Pods-Mattermost-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjackPrivacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXApplication/ExpoApplication_privacy.bundle",
@@ -1481,10 +1499,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mattermost/Pods-Mattermost-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigsiMmost/Pods-TigsiMmost-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		656D4CFDAC0EC1C1E94D9329 /* [CP] Check Pods Manifest.lock */ = {
+		5F174BFE984761AE5CC5768A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TigsiMmost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725F96BF4EBB7ADB7089B78F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1506,48 +1546,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A40F47AC8A062DFCF1B2A23E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mattermost/Pods-Mattermost-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JitsiWebRTC/WebRTC.framework/WebRTC",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mattermost/Pods-Mattermost-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5CD042BFDCAC871BAB5A03A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mattermost-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AE4769B235D14E6C9C64EA78 /* Upload Debug Symbols to Sentry */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1562,7 +1560,7 @@
 			shellPath = /bin/sh;
 			shellScript = "./uploadDebugSymbols.sh\n";
 		};
-		FABCD84BD2A468FFB374B89C /* [CP] Copy Pods Resources */ = {
+		DE0AFEE8FA3265BCE23248EB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2041,20 +2039,20 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E17B88EAD6181B9E9A24084 /* Pods-Mattermost.debug.xcconfig */;
+			baseConfigurationReference = 5B4B2ADA7BD3F714AA5B7551 /* Pods-TigsiMmost.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mattermost/Mattermost.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TigsiMmost/TigsiMmost.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 611;
 				DEVELOPMENT_TEAM = YP49VUQCX4;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Mattermost/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Mattermost;
+				INFOPLIST_FILE = TigsiMmost/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TigsiMmost;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2071,10 +2069,10 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigsi.mattermost;
-				PRODUCT_NAME = Mattermost;
+				PRODUCT_NAME = TigsiMmost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Mattermost/Mattermost-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TigsiMmost/TigsiMmost-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2084,20 +2082,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7BEDFCF1660521CCB3EADEF /* Pods-Mattermost.release.xcconfig */;
+			baseConfigurationReference = 1E502A338BF9C58173B716E3 /* Pods-TigsiMmost.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mattermost/Mattermost.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TigsiMmost/TigsiMmost.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 611;
 				DEVELOPMENT_TEAM = YP49VUQCX4;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Mattermost/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Mattermost;
+				INFOPLIST_FILE = TigsiMmost/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TigsiMmost;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2111,10 +2109,10 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigsi.mattermost;
-				PRODUCT_NAME = Mattermost;
+				PRODUCT_NAME = TigsiMmost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Mattermost/Mattermost-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TigsiMmost/TigsiMmost-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2123,7 +2121,7 @@
 		};
 		7F581D3A221ED5C60099E66B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A10297DBBE728B2BF1BC045E /* Pods-NotificationService.debug.xcconfig */;
+			baseConfigurationReference = 9A003C1F01D8D5941E1D4F8C /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2172,7 +2170,7 @@
 		};
 		7F581D3B221ED5C60099E66B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF7D3AE3E5E892576497A111 /* Pods-NotificationService.release.xcconfig */;
+			baseConfigurationReference = 6E5B4E35A20231E9B8F705B9 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2337,6 +2335,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CXX = "";
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -2404,6 +2403,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CXX = "";
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -2447,7 +2447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mattermost" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TigsiMmost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -2474,7 +2474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mattermost" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TigsiMmost" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
