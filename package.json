@@ -1,5 +1,5 @@
 {
-  "name": "mattermost-mobile",
+  "name": "tigsimmost",
   "version": "2.26.0",
   "description": "Mattermost Mobile with React Native",
   "repository": "git@github.com:mattermost/mattermost-mobile.git",
@@ -51,6 +51,7 @@
     "deep-equal": "2.2.3",
     "deepmerge": "4.3.1",
     "emoji-regex": "10.4.0",
+    "events": "3.3.0",
     "expo": "52.0.19",
     "expo-application": "6.0.1",
     "expo-crypto": "14.0.1",
