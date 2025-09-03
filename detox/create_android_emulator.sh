@@ -51,7 +51,7 @@ start_adb_server() {
 start_emulator() {
     echo "Starting the emulator..."
     local emulator_opts="-avd $AVD_NAME -no-snapshot -no-boot-anim -no-audio -no-window"
-    
+
     if [[ "$CI" == "true" || "$(uname -s)" == "Linux" ]]; then
         emulator $emulator_opts -gpu host -accel on -qemu -m 4096 &
     else
@@ -74,7 +74,7 @@ wait_for_emulator() {
 install_app() {
     echo "Installing the app..."
     adb install -r ../android/app/build/outputs/apk/debug/app-debug.apk
-    adb shell pm list packages | grep "com.mattermost.rnbeta" && echo "App is installed." || echo "App is not installed."
+    adb shell pm list packages | grep "com.tigsi.mattermost" && echo "App is installed." || echo "App is not installed."
 }
 
 start_server() {
@@ -109,7 +109,7 @@ run_detox_tests() {
 
 main() {
     setup_avd_home
-    
+
     if ! emulator -list-avds | grep -q "$AVD_NAME"; then
         create_avd
     else
