@@ -5,6 +5,7 @@
 import DatabaseManager from '@database/manager';
 import IntegrationsMananger from '@managers/integrations_manager';
 import NetworkManager from '@managers/network_manager';
+import {getDefaultChannelForTeam} from '@queries/servers/channel';
 import {getCurrentChannelId, getCurrentTeamId} from '@queries/servers/system';
 import {getFullErrorMessage} from '@utils/errors';
 import {logDebug} from '@utils/log';
@@ -16,8 +17,18 @@ export const submitInteractiveDialog = async (serverUrl: string, submission: Dia
         const client = NetworkManager.getClient(serverUrl);
         const {database} = DatabaseManager.getServerDatabaseAndOperator(serverUrl);
 
-        submission.channel_id = await getCurrentChannelId(database);
-        submission.team_id = await getCurrentTeamId(database);
+        if (!submission.team_id) {
+            submission.team_id = await getCurrentTeamId(database);
+        }
+        if (!submission.channel_id) {
+            submission.channel_id = await getCurrentChannelId(database);
+        }
+        if (!submission.channel_id && submission.team_id) {
+            const defaultChannel = await getDefaultChannelForTeam(database, submission.team_id);
+            if (defaultChannel) {
+                submission.channel_id = defaultChannel.id;
+            }
+        }
         const data = await client.submitInteractiveDialog(submission);
         return {data};
     } catch (error) {

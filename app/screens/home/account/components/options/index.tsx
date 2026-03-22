@@ -7,6 +7,7 @@ import {View} from 'react-native';
 import {changeOpacity, makeStyleSheetFromTheme} from '@utils/theme';
 
 import CustomStatus from './custom_status';
+import HelpDesk from './help_desk';
 import Logout from './logout';
 import Settings from './settings';
 import UserPresence from './user_presence';
@@ -69,6 +70,7 @@ const AccountOptions = ({user, enableCustomUserStatuses, isTablet, theme}: Accou
                     theme={theme}
                 />
                 <Settings/>
+                <HelpDesk/>
             </View>
             <View style={styles.divider}/>
             <View style={styles.group}>
