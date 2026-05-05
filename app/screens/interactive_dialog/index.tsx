@@ -13,7 +13,8 @@ import ErrorText from '@components/error_text';
 import {useServerUrl} from '@context/server';
 import {useTheme} from '@context/theme';
 import useAndroidHardwareBackHandler from '@hooks/android_back_handler';
-import {buildNavigationButton, dismissModal, setButtons} from '@screens/navigation';
+import {INTERACTIVE_DIALOG} from '@constants/screens';
+import {buildNavigationButton, dismissModal, setButtons, showModal} from '@screens/navigation';
 import {checkDialogElementForError, checkIfErrorsMatchElements} from '@utils/integrations';
 import {changeOpacity, makeStyleSheetFromTheme} from '@utils/theme';
 import {secureGetFromRecord} from '@utils/types';
@@ -174,6 +175,16 @@ function InteractiveDialog({
         const {data} = await submitInteractiveDialog(serverUrl, dialog);
 
         if (data) {
+            if (data.type === 'form' && data.form) {
+                close();
+                const nextConfig: InteractiveDialogConfig = {
+                    url,
+                    dialog: data.form,
+                } as InteractiveDialogConfig;
+                showModal(INTERACTIVE_DIALOG, data.form.title, {config: nextConfig});
+                return;
+            }
+
             if (data.errors &&
                 Object.keys(data.errors).length >= 0 &&
                 checkIfErrorsMatchElements(data.errors, elements)
